@@ -3,5 +3,8 @@
   "item.qualore.raw_pink_garnet":"Raw Pink Garnet",
 
   "block.qualore.pink_garnet_block":"Block of Pink Garnet",
-  "block.qualore.raw_pink_garnet_block":"Block of Raw Pink Garnet"
+  "block.qualore.raw_pink_garnet_block":"Block of Raw Pink Garnet",
+
+  "itemgroup.qualore.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.qualore.pink_garnet_blocks": "Pink Garnet Blocks"
 }
