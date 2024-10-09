@@ -14,6 +14,33 @@
   "block.qualore.pink_garnet_door":"Pink Garnet Door",
   "block.qualore.pink_garnet_trapdoor":"Pink Garnet Trapdoor",
 
+  "block.qualore.smooth_stone_stairs":"Smooth Stone Stairs",
+  "block.qualore.smooth_stone_wall":"Smooth Stone Wall",
+  "block.qualore.stone_wall":"Stone Wall",
+  "block.qualore.polished_andesite_wall":"Polished Andesite Wall",
+  "block.qualore.polished_diorite_wall":"Polished Diorite Wall",
+  "block.qualore.polished_granite_wall":"Polished Granite Wall",
+  "block.qualore.smooth_sandstone_wall":"Smooth Sandstone Wall",
+  "block.qualore.smooth_red_sandstone_wall":"Smooth Red Sandstone Wall",
+  "block.qualore.cut_sandstone_wall":"Cut Sandstone Wall",
+  "block.qualore.cut_red_sandstone_wall":"Cut Red Sandstone Wall",
+
+  "block.qualore.prismarine_brick_wall":"Prismarine Brick Wall",
+  "block.qualore.dark_prismarine_wall":"Dark Prismarine Wall",
+  "block.qualore.purpur_wall":"Purpur Wall",
+  "block.qualore.quartz_wall":"Quartz Wall",
+  "block.qualore.smooth_quartz_wall":"Smooth Quartz Wall",
+  "block.qualore.end_stone_wall":"End Stone Wall",
+
+  "block.qualore.copper_wall":"Copper Wall",
+  "block.qualore.waxed_copper_wall":"Waxed Copper Wall",
+  "block.qualore.exposed_copper_wall":"Exposed Copper Wall",
+  "block.qualore.waxed_exposed_copper_wall":"Waxed Exposed Copper Wall",
+  "block.qualore.weathered_copper_wall":"Weathered Copper Wall",
+  "block.qualore.waxed_weathered_copper_wall":"Waxed Weathered Copper Wall",
+  "block.qualore.oxidized_copper_wall":"Oxidized Copper Wall",
+  "block.qualore.waxed_oxidized_copper_wall":"Waxed Oxidized Copper Wall",
+
   "itemgroup.qualore.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.qualore.pink_garnet_blocks": "Pink Garnet Blocks"
 }

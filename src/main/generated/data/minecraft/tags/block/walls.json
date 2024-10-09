@@ -1,5 +1,28 @@
 {
   "values": [
-    "qualore:pink_garnet_wall"
+    "qualore:pink_garnet_wall",
+    "qualore:smooth_stone_wall",
+    "qualore:stone_wall",
+    "qualore:polished_andesite_wall",
+    "qualore:polished_diorite_wall",
+    "qualore:polished_granite_wall",
+    "qualore:smooth_sandstone_wall",
+    "qualore:smooth_red_sandstone_wall",
+    "qualore:cut_sandstone_wall",
+    "qualore:cut_red_sandstone_wall",
+    "qualore:prismarine_brick_wall",
+    "qualore:dark_prismarine_wall",
+    "qualore:purpur_wall",
+    "qualore:quartz_wall",
+    "qualore:smooth_quartz_wall",
+    "qualore:end_stone_wall",
+    "qualore:copper_wall",
+    "qualore:waxed_copper_wall",
+    "qualore:exposed_copper_wall",
+    "qualore:waxed_exposed_copper_wall",
+    "qualore:weathered_copper_wall",
+    "qualore:waxed_weathered_copper_wall",
+    "qualore:oxidized_copper_wall",
+    "qualore:waxed_oxidized_copper_wall"
   ]
 }
