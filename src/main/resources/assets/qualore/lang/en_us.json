@@ -4,6 +4,15 @@
 
   "block.qualore.pink_garnet_block":"Block of Pink Garnet",
   "block.qualore.raw_pink_garnet_block":"Block of Raw Pink Garnet",
+  "block.qualore.pink_garnet_slab":"Pink Garnet Slab",
+  "block.qualore.pink_garnet_stairs":"Pink Garnet Stairs",
+  "block.qualore.Pink_garnet_button":"Pink Garnet Button",
+  "block.qualore.pink_garnet_pressure_plate":"Pink Garnet Pressure Plate",
+  "block.qualore.pink_garnet_fence":"Pink Garnet Fence",
+  "block.qualore.pink_garnet_fence_gate":"Pink Garnet Fence Gate",
+  "block.qualore.pink_garnet_wall":"Pink Garnet Wall",
+  "block.qualore.pink_garnet_door":"Pink Garnet Door",
+  "block.qualore.pink_garnet_trapdoor":"Pink Garnet Trapdoor",
 
   "itemgroup.qualore.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.qualore.pink_garnet_blocks": "Pink Garnet Blocks"

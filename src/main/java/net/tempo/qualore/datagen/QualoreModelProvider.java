@@ -15,8 +15,19 @@ public class QualoreModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(QualoreBlocks.PINK_GARNET_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool pinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(QualoreBlocks.PINK_GARNET_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(QualoreBlocks.RAW_PINK_GARNET_BLOCK);
+
+        pinkGarnetPool.stairs(QualoreBlocks.PINK_GARNET_STAIRS);
+        pinkGarnetPool.slab(QualoreBlocks.PINK_GARNET_SLAB);
+        pinkGarnetPool.button(QualoreBlocks.PINK_GARNET_BUTTON);
+        pinkGarnetPool.pressurePlate(QualoreBlocks.PINK_GARNET_PRESSURE_PLATE);
+        pinkGarnetPool.fence(QualoreBlocks.PINK_GARNET_FENCE);
+        pinkGarnetPool.fenceGate(QualoreBlocks.PINK_GARNET_FENCE_GATE);
+        pinkGarnetPool.wall(QualoreBlocks.PINK_GARNET_WALL);
+
+        blockStateModelGenerator.registerDoor(QualoreBlocks.PINK_GARNET_DOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.PINK_GARNET_TRAPDOOR);
     }
 
     @Override

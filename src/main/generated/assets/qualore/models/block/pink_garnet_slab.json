@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "qualore:block/pink_garnet_block",
+    "side": "qualore:block/pink_garnet_block",
+    "top": "qualore:block/pink_garnet_block"
+  }
+}

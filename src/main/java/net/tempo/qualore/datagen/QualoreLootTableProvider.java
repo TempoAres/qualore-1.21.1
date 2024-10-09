@@ -14,7 +14,16 @@ public class QualoreLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(QualoreBlocks.PINK_GARNET_BLOCK);
         addDrop(QualoreBlocks.RAW_PINK_GARNET_BLOCK);
+        addDrop(QualoreBlocks.PINK_GARNET_BLOCK);
+        addDrop(QualoreBlocks.PINK_GARNET_STAIRS);
+        addDrop(QualoreBlocks.PINK_GARNET_SLAB, slabDrops(QualoreBlocks.PINK_GARNET_SLAB));
+        addDrop(QualoreBlocks.PINK_GARNET_BUTTON);
+        addDrop(QualoreBlocks.PINK_GARNET_PRESSURE_PLATE);
+        addDrop(QualoreBlocks.PINK_GARNET_FENCE);
+        addDrop(QualoreBlocks.PINK_GARNET_FENCE_GATE);
+        addDrop(QualoreBlocks.PINK_GARNET_WALL);
+        addDrop(QualoreBlocks.PINK_GARNET_DOOR, doorDrops(QualoreBlocks.PINK_GARNET_DOOR));
+        addDrop(QualoreBlocks.PINK_GARNET_TRAPDOOR);
     }
 }

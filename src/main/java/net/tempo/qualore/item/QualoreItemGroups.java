@@ -27,6 +27,15 @@ public class QualoreItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(QualoreBlocks.PINK_GARNET_BLOCK);
                         entries.add(QualoreBlocks.RAW_PINK_GARNET_BLOCK);
+                        entries.add(QualoreBlocks.PINK_GARNET_STAIRS);
+                        entries.add(QualoreBlocks.PINK_GARNET_SLAB);
+                        entries.add(QualoreBlocks.PINK_GARNET_BUTTON);
+                        entries.add(QualoreBlocks.PINK_GARNET_PRESSURE_PLATE);
+                        entries.add(QualoreBlocks.PINK_GARNET_FENCE);
+                        entries.add(QualoreBlocks.PINK_GARNET_FENCE_GATE);
+                        entries.add(QualoreBlocks.PINK_GARNET_WALL);
+                        entries.add(QualoreBlocks.PINK_GARNET_DOOR);
+                        entries.add(QualoreBlocks.PINK_GARNET_TRAPDOOR);
                     }).build());
 
 
