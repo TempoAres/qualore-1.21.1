@@ -52,14 +52,6 @@ public class QualoreModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool smoothRedSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_RED_SANDSTONE);
         smoothRedSandstonePool.wall(QualoreBlocks.SMOOTH_RED_SANDSTONE_WALL);
 
-        //BlockStateModelGenerator.BlockTexturePool cutSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CUT_SANDSTONE);
-        //cutSandstonePool.wall(QualoreBlocks.CUT_SANDSTONE_WALL);
-
-        //BlockStateModelGenerator.BlockTexturePool cutRedSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CUT_RED_SANDSTONE);
-        //cutRedSandstonePool.wall(QualoreBlocks.CUT_RED_SANDSTONE_WALL);
-
-        //New Pools
-
         BlockStateModelGenerator.BlockTexturePool prismarineBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
         prismarineBrickPool.wall(QualoreBlocks.PRISMARINE_BRICK_WALL);
 
@@ -69,38 +61,26 @@ public class QualoreModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool purpurPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
         purpurPool.wall(QualoreBlocks.PURPUR_WALL);
 
-        //BlockStateModelGenerator.BlockTexturePool quartzPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.QUARTZ_BLOCK);
-        //quartzPool.wall(QualoreBlocks.QUARTZ_WALL);
-
         BlockStateModelGenerator.BlockTexturePool smoothQuartzPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);
         smoothQuartzPool.wall(QualoreBlocks.SMOOTH_QUARTZ_WALL);
 
         BlockStateModelGenerator.BlockTexturePool endStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
         endStonePool.wall(QualoreBlocks.END_STONE_WALL);
+        endStonePool.stairs(QualoreBlocks.END_STONE_STAIRS);
+        endStonePool.slab(QualoreBlocks.END_STONE_SLAB);
 
-        BlockStateModelGenerator.BlockTexturePool copperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COPPER_BLOCK);
-        copperPool.wall(QualoreBlocks.COPPER_WALL);
+        BlockStateModelGenerator.BlockTexturePool netherBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHER_BRICKS);
+        netherBrickPool.fenceGate(QualoreBlocks.NETHER_BRICK_FENCE_GATE);
 
-        BlockStateModelGenerator.BlockTexturePool waxedCopperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WAXED_COPPER_BLOCK);
-        waxedCopperPool.wall(QualoreBlocks.WAXED_COPPER_WALL);
+        BlockStateModelGenerator.BlockTexturePool redNetherBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
+        redNetherBrickPool.fenceGate(QualoreBlocks.RED_NETHER_BRICK_FENCE_GATE);
+        redNetherBrickPool.fence(QualoreBlocks.RED_NETHER_BRICK_FENCE);
 
-        BlockStateModelGenerator.BlockTexturePool exposedCopperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EXPOSED_COPPER);
-        exposedCopperPool.wall(QualoreBlocks.EXPOSED_COPPER_WALL);
+        BlockStateModelGenerator.BlockTexturePool cutSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CUT_SANDSTONE);
+        cutSandstonePool.stairs(QualoreBlocks.CUT_SANDSTONE_STAIRS);
 
-        BlockStateModelGenerator.BlockTexturePool waxedExposedCopperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WAXED_EXPOSED_COPPER);
-        waxedExposedCopperPool.wall(QualoreBlocks.WAXED_EXPOSED_COPPER_WALL);
-
-        BlockStateModelGenerator.BlockTexturePool weatheredCopperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WEATHERED_COPPER);
-        weatheredCopperPool.wall(QualoreBlocks.WEATHERED_COPPER_WALL);
-
-        BlockStateModelGenerator.BlockTexturePool waxedWeatheredCopperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WAXED_WEATHERED_COPPER);
-        waxedWeatheredCopperPool.wall(QualoreBlocks.WAXED_WEATHERED_COPPER_WALL);
-
-        BlockStateModelGenerator.BlockTexturePool oxidizedCopperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OXIDIZED_COPPER);
-        oxidizedCopperPool.wall(QualoreBlocks.OXIDIZED_COPPER_WALL);
-
-        BlockStateModelGenerator.BlockTexturePool waxedOxidizedCopperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WAXED_OXIDIZED_COPPER);
-        waxedOxidizedCopperPool.wall(QualoreBlocks.WAXED_OXIDIZED_COPPER_WALL);
+        BlockStateModelGenerator.BlockTexturePool cutRedSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CUT_RED_SANDSTONE);
+        cutRedSandstonePool.stairs(QualoreBlocks.CUT_RED_SANDSTONE_STAIRS);
     }
 
     @Override

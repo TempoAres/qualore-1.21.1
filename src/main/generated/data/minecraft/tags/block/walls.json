@@ -15,14 +15,6 @@
     "qualore:purpur_wall",
     "qualore:quartz_wall",
     "qualore:smooth_quartz_wall",
-    "qualore:end_stone_wall",
-    "qualore:copper_wall",
-    "qualore:waxed_copper_wall",
-    "qualore:exposed_copper_wall",
-    "qualore:waxed_exposed_copper_wall",
-    "qualore:weathered_copper_wall",
-    "qualore:waxed_weathered_copper_wall",
-    "qualore:oxidized_copper_wall",
-    "qualore:waxed_oxidized_copper_wall"
+    "qualore:end_stone_wall"
   ]
 }

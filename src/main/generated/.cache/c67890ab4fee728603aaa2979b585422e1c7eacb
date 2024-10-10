@@ -1,5 +1,7 @@
-// 1.21.1	2024-10-09T15:11:27.313402	Qualore Mod/Tags for minecraft:block
-65850c70d2f2572a7aa2091ce32008d6846fee1c data\minecraft\tags\block\fence_gates.json
-ddf1e9fe16396a19a391fa4daef5914a084a544b data\minecraft\tags\block\fences.json
-bd990115af2feff2af7f9c23f4d3234f2a694d87 data\minecraft\tags\block\walls.json
-4dad63b16d2b9c57fa061ad0849758a96dc12183 data\minecraft\tags\block\mineable\pickaxe.json
+// 1.21.1	2024-10-10T13:40:19.7358921	Qualore Mod/Tags for minecraft:block
+49fedb44afd070a9ca5dad4bcbeba8a76cd04e48 data\minecraft\tags\block\fence_gates.json
+6e663c1596bbabda1504a1e9a868286cb5ba3669 data\minecraft\tags\block\stairs.json
+384235b82d719c0923688a5e383ff06d04effcb1 data\minecraft\tags\block\walls.json
+e11295749c42d36533e68542fa0c97466a1225a7 data\minecraft\tags\block\slabs.json
+0bd3158413be03cdd2379f4182f297cdeceb867e data\minecraft\tags\block\fences.json
+c285621db0bca248b03f6dd520d4f2c3fc7c8a8d data\minecraft\tags\block\mineable\pickaxe.json

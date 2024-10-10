@@ -26,8 +26,7 @@ public class QualoreLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(QualoreBlocks.PINK_GARNET_WALL);
         addDrop(QualoreBlocks.PINK_GARNET_DOOR, doorDrops(QualoreBlocks.PINK_GARNET_DOOR));
         addDrop(QualoreBlocks.PINK_GARNET_TRAPDOOR);
-//Qualore Blocks
-        addDrop(QualoreBlocks.SMOOTH_STONE_STAIRS);
+//Qualore Walls
         addDrop(QualoreBlocks.SMOOTH_STONE_WALL);
         addDrop(QualoreBlocks.STONE_WALL);
         addDrop(QualoreBlocks.POLISHED_ANDESITE_WALL);
@@ -43,13 +42,17 @@ public class QualoreLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(QualoreBlocks.QUARTZ_WALL);
         addDrop(QualoreBlocks.SMOOTH_QUARTZ_WALL);
         addDrop(QualoreBlocks.END_STONE_WALL);
-        addDrop(QualoreBlocks.COPPER_WALL);
-        addDrop(QualoreBlocks.WAXED_COPPER_WALL);
-        addDrop(QualoreBlocks.EXPOSED_COPPER_WALL);
-        addDrop(QualoreBlocks.WAXED_EXPOSED_COPPER_WALL);
-        addDrop(QualoreBlocks.WEATHERED_COPPER_WALL);
-        addDrop(QualoreBlocks.WAXED_WEATHERED_COPPER_WALL);
-        addDrop(QualoreBlocks.OXIDIZED_COPPER_WALL);
-        addDrop(QualoreBlocks.WAXED_OXIDIZED_COPPER_WALL);
+//Qualore Stairs
+        addDrop(QualoreBlocks.SMOOTH_STONE_STAIRS);
+        addDrop(QualoreBlocks.END_STONE_STAIRS);
+        addDrop(QualoreBlocks.CUT_SANDSTONE_STAIRS);
+        addDrop(QualoreBlocks.CUT_RED_SANDSTONE_STAIRS);
+//Qualore Slabs
+        addDrop(QualoreBlocks.END_STONE_SLAB);
+//Qualore Gates
+        addDrop(QualoreBlocks.NETHER_BRICK_FENCE_GATE);
+        addDrop(QualoreBlocks.RED_NETHER_BRICK_FENCE_GATE);
+//Qualore Fences
+        addDrop(QualoreBlocks.RED_NETHER_BRICK_FENCE);
     }
 }

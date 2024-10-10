@@ -1,5 +1,10 @@
 {
   "values": [
-    "qualore:pink_garnet_block"
+    "qualore:pink_garnet_block",
+    "qualore:end_stone_slab",
+    "qualore:end_stone_stairs",
+    "qualore:smooth_stone_stairs",
+    "qualore:cut_sandstone_stairs",
+    "qualore:cut_red_sandstone_stairs"
   ]
 }

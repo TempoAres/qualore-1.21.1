@@ -16,6 +16,11 @@ public class QualoreBlockTagProvider extends FabricTagProvider.BlockTagProvider 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.PINK_GARNET_BLOCK);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.END_STONE_SLAB);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.END_STONE_STAIRS);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.SMOOTH_STONE_STAIRS);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.CUT_SANDSTONE_STAIRS);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.CUT_RED_SANDSTONE_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.FENCES).add(QualoreBlocks.PINK_GARNET_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(QualoreBlocks.PINK_GARNET_FENCE_GATE);
@@ -36,13 +41,13 @@ public class QualoreBlockTagProvider extends FabricTagProvider.BlockTagProvider 
         getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.QUARTZ_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.SMOOTH_QUARTZ_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.END_STONE_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.COPPER_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.WAXED_COPPER_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.EXPOSED_COPPER_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.WAXED_EXPOSED_COPPER_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.WEATHERED_COPPER_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.WAXED_WEATHERED_COPPER_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.OXIDIZED_COPPER_WALL);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.WAXED_OXIDIZED_COPPER_WALL);
+        getOrCreateTagBuilder(BlockTags.SLABS).add(QualoreBlocks.END_STONE_SLAB);
+        getOrCreateTagBuilder(BlockTags.STAIRS).add(QualoreBlocks.END_STONE_STAIRS);
+        getOrCreateTagBuilder(BlockTags.STAIRS).add(QualoreBlocks.SMOOTH_STONE_STAIRS);
+        getOrCreateTagBuilder(BlockTags.STAIRS).add(QualoreBlocks.CUT_SANDSTONE_STAIRS);
+        getOrCreateTagBuilder(BlockTags.STAIRS).add(QualoreBlocks.CUT_RED_SANDSTONE_STAIRS);
+        getOrCreateTagBuilder(BlockTags.FENCES).add(QualoreBlocks.RED_NETHER_BRICK_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(QualoreBlocks.NETHER_BRICK_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(QualoreBlocks.RED_NETHER_BRICK_FENCE_GATE);
     }
 }

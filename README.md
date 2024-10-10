@@ -24,15 +24,17 @@ Addition List
   * Quartz: Wall
   * Smooth Quartz: Wall
   * End Stone: Stair, Slab, Wall
-  * Copper: Wall (8x Versions)
 * Fences/Gates
   * Nether Brick: Gate
   * Red Nether Brick: Fence, Gate
 * Trapdoors:
   * Stone
-  * Andesite/Diorite/Granite
-  * Polished Deepslate
-  * Deepslate Tiles
+  * Polished Andesite/Diorite/Granite
+  * Polished Deepslate/Tiles
   * Polished Tuff
+  * Sandstone/Red Sandstone
+  * Prismarine Brick
   * Polished Blackstone
+  * End stone Bricks
+  * Purpur
   * Quartz

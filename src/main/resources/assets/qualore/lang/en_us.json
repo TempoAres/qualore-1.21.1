@@ -15,6 +15,14 @@
   "block.qualore.pink_garnet_trapdoor":"Pink Garnet Trapdoor",
 
   "block.qualore.smooth_stone_stairs":"Smooth Stone Stairs",
+  "block.qualore.end_stone_stairs":"End Stone Stairs",
+  "block.qualore.end_stone_slab":"End Stone Slab",
+
+  "block.qualore.nether_brick_fence_gate":"Nether Brick Fence Gate",
+  "block.qualore.red_nether_brick_fence_gate":"Red Nether Brick Fence Gate",
+
+  "block.qualore.red_nether_brick_fence":"Red Nether Brick Fence",
+
   "block.qualore.smooth_stone_wall":"Smooth Stone Wall",
   "block.qualore.stone_wall":"Stone Wall",
   "block.qualore.polished_andesite_wall":"Polished Andesite Wall",
@@ -24,6 +32,8 @@
   "block.qualore.smooth_red_sandstone_wall":"Smooth Red Sandstone Wall",
   "block.qualore.cut_sandstone_wall":"Cut Sandstone Wall",
   "block.qualore.cut_red_sandstone_wall":"Cut Red Sandstone Wall",
+  "block.qualore.cut_red_sandstone_stairs":"Cut Red Sandstone Stairs",
+  "block.qualore.cut_sandstone_stairs":"Cut Sandstone Stairs",
 
   "block.qualore.prismarine_brick_wall":"Prismarine Brick Wall",
   "block.qualore.dark_prismarine_wall":"Dark Prismarine Wall",

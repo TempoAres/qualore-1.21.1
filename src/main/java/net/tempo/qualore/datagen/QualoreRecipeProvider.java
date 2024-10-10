@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.tempo.qualore.block.QualoreBlocks;
@@ -35,8 +36,19 @@ public class QualoreRecipeProvider extends FabricRecipeProvider {
                 .input(QualoreBlocks.RAW_PINK_GARNET_BLOCK)
                 .criterion(hasItem(QualoreBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(QualoreBlocks.RAW_PINK_GARNET_BLOCK))
                 .offerTo(exporter);
-
+//Stairs
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.SMOOTH_STONE_STAIRS, 4).pattern("#  ").pattern("## ").pattern("###").input('#', Blocks.SMOOTH_STONE).criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.END_STONE_STAIRS, 4).pattern("#  ").pattern("## ").pattern("###").input('#', Blocks.END_STONE).criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.CUT_SANDSTONE_STAIRS, 4).pattern("#  ").pattern("## ").pattern("###").input('#', Blocks.CUT_SANDSTONE).criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.CUT_RED_SANDSTONE_STAIRS, 4).pattern("#  ").pattern("## ").pattern("###").input('#', Blocks.CUT_RED_SANDSTONE).criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE)).offerTo(exporter);
+//Gates
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.NETHER_BRICK_FENCE_GATE, 1).pattern("#W#").pattern("#W#").input('#', Items.STICK).input('W', Blocks.NETHER_BRICKS).criterion(hasItem(Blocks.NETHER_BRICKS), conditionsFromItem(Blocks.NETHER_BRICKS)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.RED_NETHER_BRICK_FENCE_GATE, 1).pattern("#W#").pattern("#W#").input('#', Items.STICK).input('W', Blocks.RED_NETHER_BRICKS).criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS)).offerTo(exporter);
+//Fences
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.RED_NETHER_BRICK_FENCE, 3).pattern("#W#").pattern("#W#").input('#', Blocks.RED_NETHER_BRICKS).input('W', Items.RED_NETHER_BRICKS).criterion(hasItem(Blocks.RED_NETHER_BRICKS), conditionsFromItem(Blocks.RED_NETHER_BRICKS)).offerTo(exporter);
+//Slabs
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.END_STONE_SLAB, 6).pattern("###").input('#', Blocks.END_STONE).criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE)).offerTo(exporter);
+//Walls
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.SMOOTH_STONE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.SMOOTH_STONE).criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.STONE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.STONE).criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.POLISHED_ANDESITE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.POLISHED_ANDESITE).criterion(hasItem(Blocks.POLISHED_ANDESITE), conditionsFromItem(Blocks.POLISHED_ANDESITE)).offerTo(exporter);
@@ -46,22 +58,11 @@ public class QualoreRecipeProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.SMOOTH_RED_SANDSTONE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.SMOOTH_RED_SANDSTONE).criterion(hasItem(Blocks.SMOOTH_RED_SANDSTONE), conditionsFromItem(Blocks.SMOOTH_RED_SANDSTONE)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.CUT_SANDSTONE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.CUT_SANDSTONE).criterion(hasItem(Blocks.CUT_SANDSTONE), conditionsFromItem(Blocks.CUT_SANDSTONE)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.CUT_RED_SANDSTONE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.CUT_RED_SANDSTONE).criterion(hasItem(Blocks.CUT_RED_SANDSTONE), conditionsFromItem(Blocks.CUT_RED_SANDSTONE)).offerTo(exporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.PRISMARINE_BRICK_WALL, 6).pattern("###").pattern("###").input('#', Blocks.PRISMARINE_BRICKS).criterion(hasItem(Blocks.PRISMARINE_BRICKS), conditionsFromItem(Blocks.PRISMARINE_BRICKS)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.DARK_PRISMARINE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.DARK_PRISMARINE).criterion(hasItem(Blocks.DARK_PRISMARINE), conditionsFromItem(Blocks.DARK_PRISMARINE)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.PURPUR_WALL, 6).pattern("###").pattern("###").input('#', Blocks.PURPUR_BLOCK).criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.QUARTZ_WALL, 6).pattern("###").pattern("###").input('#', Blocks.QUARTZ_BLOCK).criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.SMOOTH_QUARTZ_WALL, 6).pattern("###").pattern("###").input('#', Blocks.SMOOTH_QUARTZ).criterion(hasItem(Blocks.SMOOTH_QUARTZ), conditionsFromItem(Blocks.SMOOTH_QUARTZ)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.END_STONE_WALL, 6).pattern("###").pattern("###").input('#', Blocks.END_STONE).criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE)).offerTo(exporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.COPPER_BLOCK).criterion(hasItem(Blocks.COPPER_BLOCK), conditionsFromItem(Blocks.COPPER_BLOCK)).offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.WAXED_COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.WAXED_COPPER_BLOCK).criterion(hasItem(Blocks.WAXED_COPPER_BLOCK), conditionsFromItem(Blocks.WAXED_COPPER_BLOCK)).offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.EXPOSED_COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.EXPOSED_COPPER).criterion(hasItem(Blocks.EXPOSED_COPPER), conditionsFromItem(Blocks.EXPOSED_COPPER)).offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.WAXED_EXPOSED_COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.WAXED_EXPOSED_COPPER).criterion(hasItem(Blocks.WAXED_EXPOSED_COPPER), conditionsFromItem(Blocks.WAXED_EXPOSED_COPPER)).offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.WEATHERED_COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.WEATHERED_COPPER).criterion(hasItem(Blocks.WEATHERED_COPPER), conditionsFromItem(Blocks.WEATHERED_COPPER)).offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.WAXED_WEATHERED_COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.WAXED_WEATHERED_COPPER).criterion(hasItem(Blocks.WAXED_WEATHERED_COPPER), conditionsFromItem(Blocks.WAXED_WEATHERED_COPPER)).offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.OXIDIZED_COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.OXIDIZED_COPPER).criterion(hasItem(Blocks.OXIDIZED_COPPER), conditionsFromItem(Blocks.OXIDIZED_COPPER)).offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.WAXED_OXIDIZED_COPPER_WALL, 6).pattern("###").pattern("###").input('#', Blocks.WAXED_OXIDIZED_COPPER).criterion(hasItem(Blocks.WAXED_OXIDIZED_COPPER), conditionsFromItem(Blocks.WAXED_OXIDIZED_COPPER)).offerTo(exporter);
-
     }
 }
