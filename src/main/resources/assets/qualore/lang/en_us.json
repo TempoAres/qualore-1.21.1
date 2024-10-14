@@ -1,28 +1,10 @@
 {
-  "item.qualore.pink_garnet": "Pink Garnet",
-  "item.qualore.raw_pink_garnet":"Raw Pink Garnet",
-
-  "block.qualore.pink_garnet_block":"Block of Pink Garnet",
-  "block.qualore.raw_pink_garnet_block":"Block of Raw Pink Garnet",
-  "block.qualore.pink_garnet_slab":"Pink Garnet Slab",
-  "block.qualore.pink_garnet_stairs":"Pink Garnet Stairs",
-  "block.qualore.Pink_garnet_button":"Pink Garnet Button",
-  "block.qualore.pink_garnet_pressure_plate":"Pink Garnet Pressure Plate",
-  "block.qualore.pink_garnet_fence":"Pink Garnet Fence",
-  "block.qualore.pink_garnet_fence_gate":"Pink Garnet Fence Gate",
-  "block.qualore.pink_garnet_wall":"Pink Garnet Wall",
-  "block.qualore.pink_garnet_door":"Pink Garnet Door",
-  "block.qualore.pink_garnet_trapdoor":"Pink Garnet Trapdoor",
-
   "block.qualore.smooth_stone_stairs":"Smooth Stone Stairs",
   "block.qualore.end_stone_stairs":"End Stone Stairs",
   "block.qualore.end_stone_slab":"End Stone Slab",
-
   "block.qualore.nether_brick_fence_gate":"Nether Brick Fence Gate",
   "block.qualore.red_nether_brick_fence_gate":"Red Nether Brick Fence Gate",
-
   "block.qualore.red_nether_brick_fence":"Red Nether Brick Fence",
-
   "block.qualore.smooth_stone_wall":"Smooth Stone Wall",
   "block.qualore.stone_wall":"Stone Wall",
   "block.qualore.polished_andesite_wall":"Polished Andesite Wall",
@@ -34,7 +16,6 @@
   "block.qualore.cut_red_sandstone_wall":"Cut Red Sandstone Wall",
   "block.qualore.cut_red_sandstone_stairs":"Cut Red Sandstone Stairs",
   "block.qualore.cut_sandstone_stairs":"Cut Sandstone Stairs",
-
   "block.qualore.prismarine_brick_wall":"Prismarine Brick Wall",
   "block.qualore.dark_prismarine_wall":"Dark Prismarine Wall",
   "block.qualore.purpur_wall":"Purpur Wall",
@@ -42,15 +23,20 @@
   "block.qualore.smooth_quartz_wall":"Smooth Quartz Wall",
   "block.qualore.end_stone_wall":"End Stone Wall",
 
-  "block.qualore.copper_wall":"Copper Wall",
-  "block.qualore.waxed_copper_wall":"Waxed Copper Wall",
-  "block.qualore.exposed_copper_wall":"Exposed Copper Wall",
-  "block.qualore.waxed_exposed_copper_wall":"Waxed Exposed Copper Wall",
-  "block.qualore.weathered_copper_wall":"Weathered Copper Wall",
-  "block.qualore.waxed_weathered_copper_wall":"Waxed Weathered Copper Wall",
-  "block.qualore.oxidized_copper_wall":"Oxidized Copper Wall",
-  "block.qualore.waxed_oxidized_copper_wall":"Waxed Oxidized Copper Wall",
+  "block.qualore.andesite_trapdoor":"Andesite Trapdoor",
+  "block.qualore.blackstone_trapdoor":"Blackstone Trapdoor",
+  "block.qualore.deepslate_tile_trapdoor":"Deepslate Tile Trapdoor",
+  "block.qualore.diorite_trapdoor":"Diorite Trapdoor",
+  "block.qualore.end_stone_trapdoor":"End Stone Trapdoor",
+  "block.qualore.granite_trapdoor":"Granite Trapdoor",
+  "block.qualore.polished_deepslate_trapdoor":"Polished Deepslate Trapdoor",
+  "block.qualore.prismarine_brick_trapdoor":"Prismarine Brick Trapdoor",
+  "block.qualore.purpur_trapdoor":"Purpur Trapdoor",
+  "block.qualore.quartz_trapdoor":"Quartz Trapdoor",
+  "block.qualore.red_sandstone_trapdoor":"Red Sandstone Trapdoor",
+  "block.qualore.sandstone_trapdoor":"Sandstone Trapdoor",
+  "block.qualore.stone_trapdoor":"Stone Trapdoor",
+  "block.qualore.tuff_trapdoor":"Tuff Trapdoor",
 
-  "itemgroup.qualore.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.qualore.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.qualore.Qualore": "Qualore"
 }

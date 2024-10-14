@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "qualore:block/pink_garnet_block",
-    "side": "qualore:block/pink_garnet_block",
-    "top": "qualore:block/pink_garnet_block"
-  }
-}

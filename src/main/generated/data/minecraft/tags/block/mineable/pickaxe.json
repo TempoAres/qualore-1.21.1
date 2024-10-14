@@ -1,10 +1,23 @@
 {
   "values": [
-    "qualore:pink_garnet_block",
     "qualore:end_stone_slab",
     "qualore:end_stone_stairs",
     "qualore:smooth_stone_stairs",
     "qualore:cut_sandstone_stairs",
-    "qualore:cut_red_sandstone_stairs"
+    "qualore:cut_red_sandstone_stairs",
+    "qualore:andesite_trapdoor",
+    "qualore:blackstone_trapdoor",
+    "qualore:deepslate_tile_trapdoor",
+    "qualore:diorite_trapdoor",
+    "qualore:end_stone_trapdoor",
+    "qualore:granite_trapdoor",
+    "qualore:polished_deepslate_trapdoor",
+    "qualore:prismarine_trapdoor",
+    "qualore:purpur_trapdoor",
+    "qualore:quartz_trapdoor",
+    "qualore:red_sandstone_trapdoor",
+    "qualore:sandstone_trapdoor",
+    "qualore:stone_trapdoor",
+    "qualore:tuff_trapdoor"
   ]
 }

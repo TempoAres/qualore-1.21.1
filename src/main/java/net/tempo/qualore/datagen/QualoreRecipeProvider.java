@@ -5,12 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.tempo.qualore.block.QualoreBlocks;
-import net.tempo.qualore.item.QualoreItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -21,21 +19,22 @@ public class QualoreRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
+//Trapdoors
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.ANDESITE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.ANDESITE).criterion(hasItem(Blocks.ANDESITE), conditionsFromItem(Blocks.ANDESITE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.BLACKSTONE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.BLACKSTONE).criterion(hasItem(Blocks.BLACKSTONE), conditionsFromItem(Blocks.BLACKSTONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.DEEPSLATE_TILE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.DEEPSLATE_TILES).criterion(hasItem(Blocks.DEEPSLATE_TILES), conditionsFromItem(Blocks.DEEPSLATE_TILES)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.DIORITE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.DIORITE).criterion(hasItem(Blocks.DIORITE), conditionsFromItem(Blocks.DIORITE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.END_STONE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.END_STONE).criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.GRANITE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.GRANITE).criterion(hasItem(Blocks.GRANITE), conditionsFromItem(Blocks.GRANITE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.POLISHED_DEEPSLATE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.POLISHED_DEEPSLATE).criterion(hasItem(Blocks.POLISHED_DEEPSLATE), conditionsFromItem(Blocks.POLISHED_DEEPSLATE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.PRISMARINE_BRICK_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.PRISMARINE_BRICKS).criterion(hasItem(Blocks.PRISMARINE_BRICKS), conditionsFromItem(Blocks.PRISMARINE_BRICKS)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.PURPUR_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.PURPUR_BLOCK).criterion(hasItem(Blocks.PURPUR_BLOCK), conditionsFromItem(Blocks.PURPUR_BLOCK)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.QUARTZ_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.QUARTZ_BLOCK).criterion(hasItem(Blocks.QUARTZ_BLOCK), conditionsFromItem(Blocks.QUARTZ_BLOCK)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.RED_SANDSTONE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.RED_SANDSTONE).criterion(hasItem(Blocks.RED_SANDSTONE), conditionsFromItem(Blocks.RED_SANDSTONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.SANDSTONE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.SANDSTONE).criterion(hasItem(Blocks.SANDSTONE), conditionsFromItem(Blocks.SANDSTONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.STONE_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.STONE).criterion(hasItem(Blocks.STONE), conditionsFromItem(Blocks.STONE)).offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.TUFF_TRAPDOOR, 2).pattern(" ##").pattern(" ##").pattern(" ##").input('#', Blocks.TUFF).criterion(hasItem(Blocks.TUFF), conditionsFromItem(Blocks.TUFF)).offerTo(exporter);
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, QualoreItems.PINK_GARNET, RecipeCategory.DECORATIONS, QualoreBlocks.PINK_GARNET_BLOCK);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, QualoreBlocks.RAW_PINK_GARNET_BLOCK)
-                .pattern("RRR")
-                .pattern("RRR")
-                .pattern("RRR")
-                .input('R', QualoreItems.RAW_PINK_GARNET)
-                .criterion(hasItem(QualoreItems.RAW_PINK_GARNET), conditionsFromItem(QualoreItems.RAW_PINK_GARNET))
-                .offerTo(exporter);
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, QualoreItems.RAW_PINK_GARNET, 9)
-                .input(QualoreBlocks.RAW_PINK_GARNET_BLOCK)
-                .criterion(hasItem(QualoreBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(QualoreBlocks.RAW_PINK_GARNET_BLOCK))
-                .offerTo(exporter);
 //Stairs
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.SMOOTH_STONE_STAIRS, 4).pattern("#  ").pattern("## ").pattern("###").input('#', Blocks.SMOOTH_STONE).criterion(hasItem(Blocks.SMOOTH_STONE), conditionsFromItem(Blocks.SMOOTH_STONE)).offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, QualoreBlocks.END_STONE_STAIRS, 4).pattern("#  ").pattern("## ").pattern("###").input('#', Blocks.END_STONE).criterion(hasItem(Blocks.END_STONE), conditionsFromItem(Blocks.END_STONE)).offerTo(exporter);

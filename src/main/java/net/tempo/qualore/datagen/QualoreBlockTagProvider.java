@@ -15,16 +15,25 @@ public class QualoreBlockTagProvider extends FabricTagProvider.BlockTagProvider 
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.PINK_GARNET_BLOCK);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.END_STONE_SLAB);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.END_STONE_STAIRS);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.SMOOTH_STONE_STAIRS);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.CUT_SANDSTONE_STAIRS);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.CUT_RED_SANDSTONE_STAIRS);
-
-        getOrCreateTagBuilder(BlockTags.FENCES).add(QualoreBlocks.PINK_GARNET_FENCE);
-        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(QualoreBlocks.PINK_GARNET_FENCE_GATE);
-        getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.PINK_GARNET_WALL);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.ANDESITE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.BLACKSTONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.DEEPSLATE_TILE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.DIORITE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.END_STONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.GRANITE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.PRISMARINE_BRICK_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.PURPUR_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.QUARTZ_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.RED_SANDSTONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.SANDSTONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.STONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(QualoreBlocks.TUFF_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.SMOOTH_STONE_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(QualoreBlocks.STONE_WALL);
@@ -49,5 +58,19 @@ public class QualoreBlockTagProvider extends FabricTagProvider.BlockTagProvider 
         getOrCreateTagBuilder(BlockTags.FENCES).add(QualoreBlocks.RED_NETHER_BRICK_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(QualoreBlocks.NETHER_BRICK_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(QualoreBlocks.RED_NETHER_BRICK_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.ANDESITE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.BLACKSTONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.DEEPSLATE_TILE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.DIORITE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.END_STONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.GRANITE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.PRISMARINE_BRICK_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.PURPUR_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.QUARTZ_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.RED_SANDSTONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.SANDSTONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.STONE_TRAPDOOR);
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS).add(QualoreBlocks.TUFF_TRAPDOOR);
     }
 }

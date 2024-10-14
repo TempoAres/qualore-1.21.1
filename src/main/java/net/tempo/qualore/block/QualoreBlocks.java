@@ -13,18 +13,21 @@ import net.minecraft.util.Identifier;
 import net.tempo.qualore.QualoreMod;
 
 public class QualoreBlocks {
-//Test Blocks
-    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block", new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-    public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block", new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-    public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs", new StairsBlock(QualoreBlocks.PINK_GARNET_BLOCK.getDefaultState(),AbstractBlock.Settings.create().strength(2f).requiresTool()));
-    public static final Block PINK_GARNET_SLAB = registerBlock("pink_garnet_slab", new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
-    public static final Block PINK_GARNET_BUTTON = registerBlock("pink_garnet_button", new ButtonBlock(BlockSetType.IRON, 2, AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
-    public static final Block PINK_GARNET_PRESSURE_PLATE = registerBlock("pink_garnet_pressure_plate", new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool()));
-    public static final Block PINK_GARNET_FENCE = registerBlock("pink_garnet_fence", new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
-    public static final Block PINK_GARNET_FENCE_GATE = registerBlock("pink_garnet_fence_gate", new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.create().strength(2f).requiresTool()));
-    public static final Block PINK_GARNET_WALL = registerBlock("pink_garnet_wall", new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
-    public static final Block PINK_GARNET_DOOR = registerBlock("pink_garnet_door", new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
-    public static final Block PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor", new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+//Qualore Trapdoors
+    public static final Block ANDESITE_TRAPDOOR = registerBlock("andesite_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F).nonOpaque()));
+    public static final Block BLACKSTONE_TRAPDOOR = registerBlock("blackstone_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F).nonOpaque()));
+    public static final Block DEEPSLATE_TILE_TRAPDOOR = registerBlock("deepslate_tile_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 6.0F).sounds(BlockSoundGroup.DEEPSLATE).nonOpaque()));
+    public static final Block DIORITE_TRAPDOOR = registerBlock("diorite_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.OFF_WHITE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F).nonOpaque()));
+    public static final Block END_STONE_TRAPDOOR = registerBlock("end_stone_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 9.0F).nonOpaque()));
+    public static final Block GRANITE_TRAPDOOR = registerBlock("granite_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.DIRT_BROWN).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F).nonOpaque()));
+    public static final Block POLISHED_DEEPSLATE_TRAPDOOR = registerBlock("polished_deepslate_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 6.0F).sounds(BlockSoundGroup.DEEPSLATE).nonOpaque()));
+    public static final Block PRISMARINE_BRICK_TRAPDOOR = registerBlock("prismarine_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.DIAMOND_BLUE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F).nonOpaque()));
+    public static final Block PURPUR_TRAPDOOR = registerBlock("purpur_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F).nonOpaque()));
+    public static final Block QUARTZ_TRAPDOOR = registerBlock("quartz_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.OFF_WHITE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(0.8F).nonOpaque()));
+    public static final Block RED_SANDSTONE_TRAPDOOR = registerBlock("red_sandstone_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F).nonOpaque()));
+    public static final Block SANDSTONE_TRAPDOOR = registerBlock("sandstone_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F).nonOpaque()));
+    public static final Block STONE_TRAPDOOR = registerBlock("stone_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F).nonOpaque()));
+    public static final Block TUFF_TRAPDOOR = registerBlock("tuff_trapdoor", new TrapdoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F).sounds(BlockSoundGroup.TUFF).nonOpaque()));
 //Qualore Walls
     public static final Block SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall", new WallBlock(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(2.0F, 6.0F)));
     public static final Block STONE_WALL = registerBlock("stone_wall", new WallBlock(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F)));
@@ -67,17 +70,6 @@ public class QualoreBlocks {
         QualoreMod.LOGGER.info("Registering Mod Blocks for " + QualoreMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(QualoreBlocks.PINK_GARNET_BLOCK);
-            entries.add(QualoreBlocks.RAW_PINK_GARNET_BLOCK);
-            entries.add(QualoreBlocks.PINK_GARNET_STAIRS);
-            entries.add(QualoreBlocks.PINK_GARNET_SLAB);
-            entries.add(QualoreBlocks.PINK_GARNET_BUTTON);
-            entries.add(QualoreBlocks.PINK_GARNET_PRESSURE_PLATE);
-            entries.add(QualoreBlocks.PINK_GARNET_FENCE);
-            entries.add(QualoreBlocks.PINK_GARNET_FENCE_GATE);
-            entries.add(QualoreBlocks.PINK_GARNET_WALL);
-            entries.add(QualoreBlocks.PINK_GARNET_DOOR);
-            entries.add(QualoreBlocks.PINK_GARNET_TRAPDOOR);
 //Qualore Walls
             entries.add(QualoreBlocks.SMOOTH_STONE_WALL);
             entries.add(QualoreBlocks.STONE_WALL);
@@ -106,6 +98,21 @@ public class QualoreBlocks {
             entries.add(QualoreBlocks.RED_NETHER_BRICK_FENCE_GATE);
 //Qualore Fences
             entries.add(QualoreBlocks.RED_NETHER_BRICK_FENCE);
+//Qualore Trapdoors
+            entries.add(QualoreBlocks.ANDESITE_TRAPDOOR);
+            entries.add(QualoreBlocks.BLACKSTONE_TRAPDOOR);
+            entries.add(QualoreBlocks.DEEPSLATE_TILE_TRAPDOOR);
+            entries.add(QualoreBlocks.DIORITE_TRAPDOOR);
+            entries.add(QualoreBlocks.END_STONE_TRAPDOOR);
+            entries.add(QualoreBlocks.GRANITE_TRAPDOOR);
+            entries.add(QualoreBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
+            entries.add(QualoreBlocks.PRISMARINE_BRICK_TRAPDOOR);
+            entries.add(QualoreBlocks.PURPUR_TRAPDOOR);
+            entries.add(QualoreBlocks.QUARTZ_TRAPDOOR);
+            entries.add(QualoreBlocks.RED_SANDSTONE_TRAPDOOR);
+            entries.add(QualoreBlocks.SANDSTONE_TRAPDOOR);
+            entries.add(QualoreBlocks.STONE_TRAPDOOR);
+            entries.add(QualoreBlocks.TUFF_TRAPDOOR);
         });
     }
 }

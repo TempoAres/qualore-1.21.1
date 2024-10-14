@@ -14,18 +14,6 @@ public class QualoreLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-//Test Blocks
-        addDrop(QualoreBlocks.RAW_PINK_GARNET_BLOCK);
-        addDrop(QualoreBlocks.PINK_GARNET_BLOCK);
-        addDrop(QualoreBlocks.PINK_GARNET_STAIRS);
-        addDrop(QualoreBlocks.PINK_GARNET_SLAB, slabDrops(QualoreBlocks.PINK_GARNET_SLAB));
-        addDrop(QualoreBlocks.PINK_GARNET_BUTTON);
-        addDrop(QualoreBlocks.PINK_GARNET_PRESSURE_PLATE);
-        addDrop(QualoreBlocks.PINK_GARNET_FENCE);
-        addDrop(QualoreBlocks.PINK_GARNET_FENCE_GATE);
-        addDrop(QualoreBlocks.PINK_GARNET_WALL);
-        addDrop(QualoreBlocks.PINK_GARNET_DOOR, doorDrops(QualoreBlocks.PINK_GARNET_DOOR));
-        addDrop(QualoreBlocks.PINK_GARNET_TRAPDOOR);
 //Qualore Walls
         addDrop(QualoreBlocks.SMOOTH_STONE_WALL);
         addDrop(QualoreBlocks.STONE_WALL);
@@ -48,11 +36,26 @@ public class QualoreLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(QualoreBlocks.CUT_SANDSTONE_STAIRS);
         addDrop(QualoreBlocks.CUT_RED_SANDSTONE_STAIRS);
 //Qualore Slabs
-        addDrop(QualoreBlocks.END_STONE_SLAB);
+        addDrop(QualoreBlocks.END_STONE_SLAB, slabDrops(QualoreBlocks.END_STONE_SLAB));
 //Qualore Gates
         addDrop(QualoreBlocks.NETHER_BRICK_FENCE_GATE);
         addDrop(QualoreBlocks.RED_NETHER_BRICK_FENCE_GATE);
 //Qualore Fences
         addDrop(QualoreBlocks.RED_NETHER_BRICK_FENCE);
+//Qualore Trapdoors
+        addDrop(QualoreBlocks.ANDESITE_TRAPDOOR);
+        addDrop(QualoreBlocks.BLACKSTONE_TRAPDOOR);
+        addDrop(QualoreBlocks.DEEPSLATE_TILE_TRAPDOOR);
+        addDrop(QualoreBlocks.DIORITE_TRAPDOOR);
+        addDrop(QualoreBlocks.END_STONE_TRAPDOOR);
+        addDrop(QualoreBlocks.GRANITE_TRAPDOOR);
+        addDrop(QualoreBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
+        addDrop(QualoreBlocks.PRISMARINE_BRICK_TRAPDOOR);
+        addDrop(QualoreBlocks.PURPUR_TRAPDOOR);
+        addDrop(QualoreBlocks.QUARTZ_TRAPDOOR);
+        addDrop(QualoreBlocks.RED_SANDSTONE_TRAPDOOR);
+        addDrop(QualoreBlocks.SANDSTONE_TRAPDOOR);
+        addDrop(QualoreBlocks.STONE_TRAPDOOR);
+        addDrop(QualoreBlocks.TUFF_TRAPDOOR);
     }
 }

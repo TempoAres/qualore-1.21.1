@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left_open",
-  "textures": {
-    "bottom": "qualore:block/pink_garnet_door_bottom",
-    "top": "qualore:block/pink_garnet_door_top"
-  }
-}

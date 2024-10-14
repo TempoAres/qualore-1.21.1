@@ -5,9 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
 import net.tempo.qualore.block.QualoreBlocks;
-import net.tempo.qualore.item.QualoreItems;
 
 public class QualoreModelProvider extends FabricModelProvider {
     public QualoreModelProvider(FabricDataOutput output) {
@@ -16,19 +14,21 @@ public class QualoreModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool pinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(QualoreBlocks.PINK_GARNET_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(QualoreBlocks.RAW_PINK_GARNET_BLOCK);
-//Test Blocks
-        pinkGarnetPool.stairs(QualoreBlocks.PINK_GARNET_STAIRS);
-        pinkGarnetPool.slab(QualoreBlocks.PINK_GARNET_SLAB);
-        pinkGarnetPool.button(QualoreBlocks.PINK_GARNET_BUTTON);
-        pinkGarnetPool.pressurePlate(QualoreBlocks.PINK_GARNET_PRESSURE_PLATE);
-        pinkGarnetPool.fence(QualoreBlocks.PINK_GARNET_FENCE);
-        pinkGarnetPool.fenceGate(QualoreBlocks.PINK_GARNET_FENCE_GATE);
-        pinkGarnetPool.wall(QualoreBlocks.PINK_GARNET_WALL);
-
-        blockStateModelGenerator.registerDoor(QualoreBlocks.PINK_GARNET_DOOR);
-        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.PINK_GARNET_TRAPDOOR);
+//Qualore Trapdoors
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.ANDESITE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.BLACKSTONE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.DEEPSLATE_TILE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.DIORITE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.END_STONE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.GRANITE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.POLISHED_DEEPSLATE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.PRISMARINE_BRICK_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.PURPUR_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.QUARTZ_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.RED_SANDSTONE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.SANDSTONE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.STONE_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(QualoreBlocks.TUFF_TRAPDOOR);
 //Qualore Blocks
         BlockStateModelGenerator.BlockTexturePool smoothStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
         smoothStonePool.stairs(QualoreBlocks.SMOOTH_STONE_STAIRS);
@@ -85,7 +85,5 @@ public class QualoreModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(QualoreItems.PINK_GARNET, Models.GENERATED);
-        itemModelGenerator.register(QualoreItems.RAW_PINK_GARNET, Models.GENERATED);
     }
 }

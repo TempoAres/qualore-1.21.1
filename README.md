@@ -8,6 +8,15 @@ Compiling
 Download the code as a .zip, open it as a project in your IDE.
 After setting the JAVA_HOME path and a project SDK open the Terminal and run ".\gradlew build". The .jar file will be in build/libs.
 
+Crafting
+=========
+Due to the Wall Crafting Recipe, Trapdoors are crafted like Doors:
+- OXX
+- OXX
+- OXX
+
+The Materials needed, are the exact same as the names below, meaning "End Stone Trapdoors" are crafted using "end_stone", not "end_stone_bricks".
+
 Addition List
 =========
 * Stairs/Slabs/Walls
@@ -29,12 +38,13 @@ Addition List
   * Red Nether Brick: Fence, Gate
 * Trapdoors:
   * Stone
-  * Polished Andesite/Diorite/Granite
-  * Polished Deepslate/Tiles
-  * Polished Tuff
+  * Andesite/Diorite/Granite
+  * Polished Deepslate
+  * Deepslate Tiles
+  * Tuff
   * Sandstone/Red Sandstone
   * Prismarine Brick
-  * Polished Blackstone
-  * End stone Bricks
+  * Blackstone
+  * End Stone
   * Purpur
   * Quartz
