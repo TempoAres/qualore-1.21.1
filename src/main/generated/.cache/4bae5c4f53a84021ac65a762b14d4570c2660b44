@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-14T12:59:54.9356308	Qualore Mod/Model Definitions
+// 1.21.1	2025-01-21T11:24:45.5492357	Qualore Mod/Model Definitions
 16e6192019ed46f494a845f91fe8333ea5a3073f assets\qualore\models\block\stone_wall_side_tall.json
 080b46b46ec72dcc4ad05098cdfceb529e3b742e assets\qualore\blockstates\polished_deepslate_trapdoor.json
 df918bd3dfffef986b3f7b8f42d448f8f060f0fa assets\qualore\models\block\end_stone_stairs_outer.json
@@ -61,8 +61,8 @@ bd4999f0323af99351b67be243d70858bc115f32 assets\qualore\models\block\prismarine_
 09547efa8519557c80f84390d2762cb84c1dc85d assets\qualore\blockstates\stone_wall.json
 74f13a1aaea0f060fe55ee84f6a5616a6b6a66a4 assets\qualore\models\block\cut_sandstone_stairs.json
 5ad34f431136afaad076a24819afe98dc48e577d assets\qualore\models\item\smooth_sandstone_wall.json
-b4f43a8dd237f4b9076ff5be1b6a350990576651 assets\qualore\blockstates\end_stone_trapdoor.json
 0a33b4d485a465aec722c0b9395df40a6b0bb25b assets\qualore\blockstates\dark_prismarine_wall.json
+b4f43a8dd237f4b9076ff5be1b6a350990576651 assets\qualore\blockstates\end_stone_trapdoor.json
 731e0e529d3de97691c853e5fa6c206c3031d07f assets\qualore\blockstates\nether_brick_fence_gate.json
 a6d609516a535ff6fd0a5a01e1af4987fb33bf42 assets\qualore\models\block\prismarine_trapdoor_bottom.json
 33cfbcc23844064e4ef2be64f7ec36f8b3f82e81 assets\qualore\blockstates\red_sandstone_trapdoor.json
@@ -70,8 +70,8 @@ af6e4d9ff46be8ed7e01f84c4654360feb1b4619 assets\qualore\models\block\smooth_red_
 be922b1a36136e88d75affa980b4b192f90f5717 assets\qualore\models\block\stone_trapdoor_bottom.json
 263379795f30cf89a1c1431072c0a2469046390d assets\qualore\models\block\smooth_red_sandstone_wall_inventory.json
 98b155f0a9fcd96fc237aa3d99969a2c93629004 assets\qualore\models\block\smooth_quartz_wall_post.json
-32a8edc77791e27b94e91381679e27365ceb00df assets\qualore\models\item\diorite_trapdoor.json
 23d462211b8fa37dffaf9452c97402f0c12fa6fd assets\qualore\models\block\granite_trapdoor_bottom.json
+32a8edc77791e27b94e91381679e27365ceb00df assets\qualore\models\item\diorite_trapdoor.json
 a9c54c0d29cf9778e096849c751eac10554cf813 assets\qualore\models\block\red_sandstone_trapdoor_top.json
 3610ead4728b9541343ee977cb89849af0fbf4fd assets\qualore\models\item\red_sandstone_trapdoor.json
 ed2ee7563312d673bcef599ae0255765f64107a2 assets\minecraft\models\block\polished_granite.json

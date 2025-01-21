@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-14T12:59:54.9106469	Qualore Mod/Block Loot Tables
+// 1.21.1	2025-01-21T11:24:45.5422382	Qualore Mod/Block Loot Tables
 10c425f7c525a65b00e9f2a175c2ddec35d3bfef data\qualore\loot_table\blocks\andesite_trapdoor.json
 74346745d75fc1831b15816324976f60ec8cc653 data\qualore\loot_table\blocks\cut_sandstone_wall.json
 8afe1e9082ec9292aaba2930050b9afc51ca23f1 data\qualore\loot_table\blocks\diorite_trapdoor.json
@@ -6,8 +6,8 @@ d7cd9f60204d9fffa1bca8927f578354adc66832 data\qualore\loot_table\blocks\smooth_s
 72a2b1e5b379fc53cc93e819ece4f697e2cdfd00 data\qualore\loot_table\blocks\prismarine_brick_wall.json
 26907f978c38131243dcc2ee74c8868c1fe9ae85 data\qualore\loot_table\blocks\dark_prismarine_wall.json
 58cd2256bfa64a6876f8c2c78ad57b8990d5c0df data\qualore\loot_table\blocks\granite_trapdoor.json
-b9488a23021dcfe89932cc26987bff4a7aa03834 data\qualore\loot_table\blocks\polished_andesite_wall.json
 a739c86c120f99b56f29e2fc9399f3db7e5514ea data\qualore\loot_table\blocks\stone_trapdoor.json
+b9488a23021dcfe89932cc26987bff4a7aa03834 data\qualore\loot_table\blocks\polished_andesite_wall.json
 2c1df732c7b0803eb2890128a929012047dbb28d data\qualore\loot_table\blocks\prismarine_trapdoor.json
 c5e36f21ac2e18749cb56fad20b370ba266f138e data\qualore\loot_table\blocks\quartz_wall.json
 2897869ea74b2354b007d94aa29b27ab423095ab data\qualore\loot_table\blocks\blackstone_trapdoor.json
